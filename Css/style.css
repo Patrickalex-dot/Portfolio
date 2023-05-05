@@ -440,31 +440,31 @@
        }
 
        .skills__junity{
-        width: 60px;
+        width: 300px;
        }
 
        .skills__csharp{
-        width: 50px;
+        width: 250px;
        }
        
        .skills__sql{
-        width: 80px;
+        width: 350px;
        }
 
        .skills__dotnet{
-        width: 50px;
+        width: 250px;
        }
 
        .skills__html{
-        width: 40px;
+        width: 200px;
        }
 
        .skills__css{
-        width: 20px;
+        width: 100px;
        }
 
        .skills__javascript{
-        width: 10px;
+        width: 50px;
        }
 
        .skills__close .skills__list{
@@ -481,4 +481,75 @@
         transform: rotate(-180deg);
        }
 
+       /*==================== QUALIFICATION ====================*/
+       .qualification__tabs{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: var(--mb-2);
+       }
        
+       .qualification__button{
+        font-size: var(--h3-font-size);
+        font-weight: var(--font-medium);
+        cursor: pointer;
+       }
+
+       .qualification__button:hover{
+        color: var(--first-color);
+       }
+
+       .qualification__icon{
+        font-size: 1.8rem;
+        margin-right: var(--mb-0-25);
+       }
+
+       .qualification__data{
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        column-gap: 1.5rem;
+       }
+
+       .qualification__title{
+        font-size: var(--normal-font-size);
+        font-weight: var(--font-medium);
+       }
+
+       .qualification__subtitle{
+        display: inline-block;
+        font-size: var(--small-font-size);
+        margin-bottom: var(--mb-1);
+       }
+
+       .qualification__calendar{
+        font-size: var(--smaller-font-size);
+        color: var(--text-color-light);
+       }
+
+       .qualification__rounder{
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background-color: var(--first-color);
+        border-radius: 50%;
+       }
+
+       .qualification__line{
+        display: block;
+        width: 1px;
+        height: 100%;
+        background-color: var(--first-color);
+        transform: translate(6px, -7px)
+       }
+
+       .qualification [data-content]{
+        display: none;
+       }
+
+       .qualification__active[data-content]{
+        display: block;
+       }
+
+       .qualification__button.qualification__active{
+        color:var(--first-color)
+        
+       }
