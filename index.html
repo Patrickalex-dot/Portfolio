@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="Css/swiper-bundle.min.css">
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="./Css/style.css">
@@ -391,22 +391,140 @@
         </section>
 
         <!--==================== SERVICES ====================-->
-
+        
         <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portifolio</h2>
+            <span class="section__subtitle">Projeto mais recente</span>
 
-        <!--==================== PROJECT IN MIND ====================-->
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="Img/portfolio1.png" alt="" class="portfolio__img">
 
-        <!--==================== TESTMONIAL ====================-->
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Absoluto Gás</h3>
+                            <p class="portfolio__description">Projeto de uma plataforma de venda de Gás de cozinha fracionado, para residencias 
+                                e pequenos empreendedores.</p>
+                                <br>
+                        </div>
+                    </div>
 
+                    <!--==================== PORTFOLIO 2====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="Img/portfolio2.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Formulário - Front-end</h3>
+                            <p class="portfolio__description">Projeto simples de um formulário usando HTML e CSS para praticar conceitos básicos de Front-end.</p>
+                            <br>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="Img/portfolio3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Projeto Frota</h3>
+                            <p class="portfolio__description">Projeto com intuito de praticar back-end com enfase em Orientação a objetos usando a linguagem C#,
+                                funciona como um cadastro de frota de caminhões para empresas.
+                            </p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        
+        
         <!--==================== CONTACTME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contate-Me</h2>
+            <span class="section__subtitle">Entrar em contato</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Meu Número</h3>
+                            <span class="contact__subtitle">(47) 9 8815-6849</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Meu E-mail</h3>
+                            <span class="contact__subtitle contact__subtitle">palexandre@live.com</span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
     </main>
     
     <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Patrick Alexandre Nichelatti</h1>
+                    <span class="footer__subtitle">Desenvolvedor Junior</span>
+                </div>
 
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Sobre Mim</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contate-Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/patricknichelatti/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/Patrickalex-dot"  target="_blank" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/patrick-nichelatti/"  target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            
+        </div>
+    </footer>
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src="">
+    <script src="js/swiper-bundle.min.js">
 
     </script>
     <!--==================== MAIN JS====================-->
